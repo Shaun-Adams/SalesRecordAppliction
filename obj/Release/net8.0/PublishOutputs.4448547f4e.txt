@@ -1,0 +1,7 @@
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\publish\SalesApp.exe
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\publish\appsettings.Development.json
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\publish\appsettings.json
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\publish\SalesApp.dll
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\publish\SalesApp.deps.json
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\publish\SalesApp.runtimeconfig.json
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\publish\SalesApp.pdb
