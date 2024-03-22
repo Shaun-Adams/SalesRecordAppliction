@@ -57,3 +57,8 @@ D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\obj\Debug\net8.0\SalesApp.
 D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\obj\Debug\net8.0\SalesApp.genruntimeconfig.cache
 D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\obj\Debug\net8.0\ref\SalesApp.dll
 D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\obj\Debug\net8.0\SalesApp.sourcelink.json
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\bin\Debug\net8.0\publish\web.config
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\bin\Debug\net8.0\publish\appsettings.Development.json
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\bin\Debug\net8.0\publish\appsettings.json
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\bin\Debug\net8.0\publish\SalesApp.deps.json
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\bin\Debug\net8.0\publish\SalesApp.runtimeconfig.json
