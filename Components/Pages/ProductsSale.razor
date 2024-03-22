@@ -1,0 +1,58 @@
+@page "/product-sales/{ProductId:int}"
+@inject ProductService ProductService
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<div class="d-flex justify-content-between align-items-center">
+    <h1>Product Sales</h1>
+    <button class="btn btn-gradient" @onclick="GoBack">Back to Products</button>
+</div>
+
+
+@if (productSales == null)
+{
+    <p>Loading...</p>
+}
+else if (productSales.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Sale Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var sale in productSales)
+            {
+                <tr>
+                    <td>@sale.SaleDate</td>
+                    <td>@sale.SalePrice.ToString("C")</td>
+                    <td>@sale.SaleQty</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No sales data available for this product.</p>
+}
+
+@code {
+    [Parameter]
+    public int ProductId { get; set; }
+    private List<ProductSale>? productSales;
+
+    protected override async Task OnInitializedAsync()
+    {
+        productSales = (await ProductService.GetProductSalesByProductIdAsync(ProductId)).ToList();
+    }
+
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}
