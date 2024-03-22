@@ -56,3 +56,4 @@ D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\obj\Debug\net8.0\refint\Sa
 D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\obj\Debug\net8.0\SalesApp.pdb
 D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\obj\Debug\net8.0\SalesApp.genruntimeconfig.cache
 D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\obj\Debug\net8.0\ref\SalesApp.dll
+D:\Users\shaun\Documents\GitHub\SalesRecordAppliction\obj\Debug\net8.0\SalesApp.sourcelink.json

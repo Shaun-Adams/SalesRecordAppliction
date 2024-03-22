@@ -18,13 +18,13 @@ namespace SalesApp.Services
         public async Task<IEnumerable<Product>> GetProductsAsync()
         {
             var result = await _httpClient.GetFromJsonAsync<IEnumerable<Product>>("products");
-            return result ?? Enumerable.Empty<Product>();
+            return result ?? [];
         }
 
         public async Task<IEnumerable<ProductSale>> GetProductSalesByProductIdAsync(int productId)
         {
             var result = await _httpClient.GetFromJsonAsync<IEnumerable<ProductSale>>($"product-sales?Id={productId}");
-            return result ?? Enumerable.Empty<ProductSale>();
+            return result ?? [];
         }
     }
 }
